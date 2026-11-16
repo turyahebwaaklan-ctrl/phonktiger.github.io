@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PHONK TIGER - Aklan | Go Where You Feel Alive</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body{
+  min-height:100vh;
+  background: url('bg2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color:#fff;
+  text-align:center;
+  font-family:Arial,sans-serif;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:30px 20px;
+  position:relative;
+}
+body::before{
+  content:"";
+  position:fixed;
+  top:0; left:0; right:0; bottom:0;
+  background:rgba(0,0,0,0.45);
+  z-index:0;
+}
+.content{ position:relative; z-index:1; width:100%; max-width:500px; }
+.top-text{ font-size:22px; letter-spacing:2px; font-weight:bold; color:#FFEFD0; text-shadow:0 2px 10px #000; margin-bottom:20px; }
+h1{ color:#FFC700; font-size:52px; text-shadow:0 0 20px #000, 0 0 30px #FFA500; margin:10px 0; }
+.subtitle{ color:#fff; margin-bottom:25px; font-size:18px; text-shadow:0 2px 8px #000; }
+.box{ border:2px solid #FFC700; border-radius:14px; padding:28px 20px; background:rgba(0,0,0,0.55); }
+.box h2{ margin:0; font-size:20px; }
+.box p{ color:#ddd; margin:12px 0 18px; }
+button{ background:#FFC700; border:none; padding:13px 28px; font-weight:bold; border-radius:8px; font-size:16px; cursor:pointer; }
+.footer{ margin-top:18px; color:#fff; font-weight:bold; text-shadow:0 2px 8px #000; }
+.bottom{ margin-top:35px; font-size:13px; color:#eee; text-shadow:0 1px 6px #000; }
+</style>
+</head>
+<body>
+<div class="content">
+<p class="top-text">GO WHERE YOU FEEL ALIVE</p>
+<p style="font-size:32px;">🐯</p>
+<h1>PHONK TIGER</h1>
+<p class="subtitle">Alhamdulillah. Aklanhub</p>
+<div class="box">
+<h2>🔥 WELCOME TO THE JUNGLE 🔥</h2>
+<p>Drift. Phonk. Tiger Energy.</p>
+<button onclick="alert('Welcome to the Jungle, Tiger! 🐯🔥')">CLICK ME</button>
+</div>
+<p class="footer">Made by Aklan</p>
+<p class="bottom">@PHONK TIGER - Go Where You Feel Alive</p>
+</div>
+</body>
+</html>
